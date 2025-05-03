@@ -5,8 +5,8 @@
     "\\public\\posters",
     "\\src",
     "\\src\\assets",
-    "\\src\\components",
-    "\\src\\data"
+    "\\src\\components"
   ],
+  "SelectedNode": "\\src\\App.css",
   "PreviewInSolutionExplorer": false
 }
