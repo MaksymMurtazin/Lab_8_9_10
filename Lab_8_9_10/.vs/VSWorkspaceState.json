@@ -5,8 +5,9 @@
     "\\public\\posters",
     "\\src",
     "\\src\\assets",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\App.css",
+  "SelectedNode": "\\src\\pages\\Booking.jsx",
   "PreviewInSolutionExplorer": false
 }

@@ -1,5 +1,8 @@
-﻿import { useState, useEffect } from "react";
+﻿import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState, useEffect } from "react";
 import MovieList from "./components/MovieList";
+import Home from './pages/Home';
+import Booking from './pages/Booking';
 import "./index.css";
 
 function App() {
