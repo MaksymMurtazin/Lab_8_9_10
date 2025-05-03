@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\posters",
     "\\src",
     "\\src\\assets",
     "\\src\\components",
     "\\src\\pages"
   ],
+  "SelectedNode": "\\db.json",
   "PreviewInSolutionExplorer": false
 }

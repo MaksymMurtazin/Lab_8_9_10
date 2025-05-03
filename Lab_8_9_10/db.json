@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "title": "Avatar 2",
+      "title": "Avatar: The Way Of Water",
       "description": "Конфлікт цивілізацій на Пандорі.",
       "genre": "Фантастика",
       "poster": "posters/avatar.jpg",
@@ -66,8 +66,8 @@
     },
     {
       "id": 9,
-      "title": "Captain America: BNW",
-      "description": "Супергеройські випробування в новому політичному ландшафті.",
+      "title": "Captain America: Brave New World",
+      "description": "Капітан Америка рятує світ.",
       "genre": "Екшн",
       "poster": "posters/cap.jpg",
       "sessionTime": "2025-05-09 22:00"

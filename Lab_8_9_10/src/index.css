@@ -6,8 +6,6 @@
 }
 
 .container {
-    padding: 20px;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -47,6 +45,7 @@ h1 {
     display: grid;
     gap: 1.5rem;
     padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .movie-card {
@@ -58,6 +57,10 @@ h1 {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.6s ease forwards;
+    max-width: 290px;
+    max-height: 570px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes fadeInUp {
@@ -76,6 +79,7 @@ h1 {
     width: 100%;
     height: auto;
     object-fit: contain;
+    max-height: 431px;
 }
 
 .movie-card-content {
@@ -108,28 +112,4 @@ h1 {
             width: 100%;
             max-width: 300px;
         }
-}
-
-@media (min-width: 501px) and (max-width: 800px) {
-    .movie-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 801px) and (max-width: 1024px) {
-    .movie-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1400px) {
-    .movie-list {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (min-width: 1401px) {
-    .movie-list {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
 }
