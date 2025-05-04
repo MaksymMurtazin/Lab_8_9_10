@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import CinemaHall from "../components/CinemaHall";
+//import CinemaHall from "../components/CinemaHall";
 import "./Booking.css";
 
 function Booking() {
