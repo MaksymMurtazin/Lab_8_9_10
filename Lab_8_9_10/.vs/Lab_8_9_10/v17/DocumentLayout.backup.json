@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -11,28 +27,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieCard.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieCard.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -54,12 +58,11 @@
               "RelativeToolTip": "src\\components\\MovieCard.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-26T12:34:07.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:34:07.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MovieList.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx",
               "RelativeDocumentMoniker": "src\\components\\MovieList.jsx",
@@ -67,12 +70,11 @@
               "RelativeToolTip": "src\\components\\MovieList.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-26T12:34:31.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:34:31.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CinemaHall.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx",
               "RelativeDocumentMoniker": "src\\components\\CinemaHall.jsx",
@@ -80,51 +82,47 @@
               "RelativeToolTip": "src\\components\\CinemaHall.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-05-03T13:59:01.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:59:01.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Home.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Home.jsx",
               "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Home.jsx",
               "RelativeToolTip": "src\\pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwD0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-05-03T14:00:06.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:00:06.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Booking.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx",
               "RelativeDocumentMoniker": "src\\pages\\Booking.jsx",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx",
               "RelativeToolTip": "src\\pages\\Booking.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-05-03T14:00:16.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:00:16.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "db.json",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json",
               "RelativeDocumentMoniker": "db.json",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json",
               "RelativeToolTip": "db.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T12:10:10.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:47:16.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
@@ -132,21 +130,32 @@
               "RelativeToolTip": "src\\App.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-26T12:35:43.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:35:43.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "index.css",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\index.css",
               "RelativeDocumentMoniker": "src\\index.css",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\index.css",
               "RelativeToolTip": "src\\index.css",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAADsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-26T12:35:44.366Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaHall.css",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
+              "RelativeDocumentMoniker": "src\\components\\CinemaHall.css",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
+              "RelativeToolTip": "src\\components\\CinemaHall.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-03T16:30:27.085Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 const MovieCard = ({ movie }) => {
     return (
@@ -10,6 +10,9 @@ const MovieCard = ({ movie }) => {
                 <p>Жанр: {movie.genre}</p>
                 <p>Сеанс: {movie.sessionTime}</p>
             </div>
+            <Link to={`/booking/${movie.id}`}>
+                <button>Забронювати</button>
+            </Link>
         </div>
     );
 };

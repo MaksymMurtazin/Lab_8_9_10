@@ -1,1 +1,46 @@
-﻿
+.cinema {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s;
+}
+
+    .seat.available {
+        background-color: green;
+    }
+
+    .seat.selected {
+        background-color: blue;
+    }
+
+    .seat.taken {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+
+    .seat:hover:not(.taken) {
+        transform: scale(1.1);
+    }
+
+.selected-info {
+    margin-top: 20px;
+}
