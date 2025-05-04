@@ -32,7 +32,7 @@ function Booking() {
     return (
         <div className="booking-container">
             <div className="movie-details">
-                <img src={movie.poster} alt={movie.title} className="poster" />
+                <img src={import.meta.env.BASE_URL + movie.poster} alt={movie.title} className="poster" />
 
                 <div className="details">
                     <h2>{movie.title}</h2>

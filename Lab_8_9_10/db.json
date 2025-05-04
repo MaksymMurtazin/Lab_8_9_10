@@ -3,7 +3,12 @@
     {
       "id": 1,
       "title": "Inception",
-      "description": "Фільм про подорожі у снах.",
+      "originalTitle": "Inception",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "duration": 148,
+      "country": "USA",
+      "description": "Фільм про подорожі у снах та зламану реальність.",
       "genre": "Фантастика",
       "poster": "posters/inception.jpg",
       "sessionTime": "2025-05-01 19:00"
@@ -11,7 +16,12 @@
     {
       "id": 2,
       "title": "The Dark Knight",
-      "description": "Бетмен проти Джокера.",
+      "originalTitle": "The Dark Knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "duration": 152,
+      "country": "USA",
+      "description": "Бетмен вступає у протистояння з геніальним злочинцем Джокером.",
       "genre": "Екшн",
       "poster": "posters/darkknight.jpg",
       "sessionTime": "2025-05-02 20:00"
@@ -19,7 +29,12 @@
     {
       "id": 3,
       "title": "Interstellar",
-      "description": "Пошук нового дому для людства.",
+      "originalTitle": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "duration": 169,
+      "country": "USA",
+      "description": "Пошук нового дому для людства через подорожі крізь простір і час.",
       "genre": "Фантастика",
       "poster": "posters/interstellar.jpg",
       "sessionTime": "2025-05-03 18:00"
@@ -27,7 +42,12 @@
     {
       "id": 4,
       "title": "Gladiator 2",
-      "description": "Продовження історії про боротьбу в Римській імперії.",
+      "originalTitle": "Gladiator 2",
+      "year": 2024,
+      "director": "Ridley Scott",
+      "duration": 156,
+      "country": "USA",
+      "description": "Продовження історії про боротьбу за честь у Римській імперії.",
       "genre": "Драма",
       "poster": "posters/gladiator.jpg",
       "sessionTime": "2025-05-04 21:00"
@@ -35,6 +55,11 @@
     {
       "id": 5,
       "title": "Avatar: The Way Of Water",
+      "originalTitle": "Avatar: The Way Of Water",
+      "year": 2022,
+      "director": "James Cameron",
+      "duration": 192,
+      "country": "USA",
       "description": "Конфлікт цивілізацій на Пандорі.",
       "genre": "Фантастика",
       "poster": "posters/avatar.jpg",
@@ -43,7 +68,12 @@
     {
       "id": 6,
       "title": "Joker",
-      "description": "Історія становлення Джокера.",
+      "originalTitle": "Joker",
+      "year": 2019,
+      "director": "Todd Phillips",
+      "duration": 122,
+      "country": "USA",
+      "description": "Історія перетворення самотнього чоловіка у символ анархії.",
       "genre": "Трилер",
       "poster": "posters/joker.jpg",
       "sessionTime": "2025-05-06 20:15"
@@ -51,6 +81,11 @@
     {
       "id": 7,
       "title": "The Lion King",
+      "originalTitle": "The Lion King",
+      "year": 1994,
+      "director": "Roger Allers, Rob Minkoff",
+      "duration": 88,
+      "country": "USA",
       "description": "Мультфільм про пригоди лева Сімби.",
       "genre": "Анімація",
       "poster": "posters/lionking.jpg",
@@ -59,7 +94,12 @@
     {
       "id": 8,
       "title": "Carry-On",
-      "description": "Пригоди, сповнені несподіваних ситуацій.",
+      "originalTitle": "Carry-On",
+      "year": 2024,
+      "director": "Jaume Collet-Serra",
+      "duration": 110,
+      "country": "USA",
+      "description": "Агент TSA втягнутий у смертельну гру із злочинним угрупованням.",
       "genre": "Трилер",
       "poster": "posters/carryon.jpg",
       "sessionTime": "2025-05-08 16:00"
@@ -67,7 +107,12 @@
     {
       "id": 9,
       "title": "Captain America: Brave New World",
-      "description": "Капітан Америка рятує світ.",
+      "originalTitle": "Captain America: Brave New World",
+      "year": 2025,
+      "director": "Julius Onah",
+      "duration": 135,
+      "country": "USA",
+      "description": "Новий Капітан Америка стикається з загрозою для людства.",
       "genre": "Екшн",
       "poster": "posters/cap.jpg",
       "sessionTime": "2025-05-09 22:00"
@@ -75,7 +120,12 @@
     {
       "id": 10,
       "title": "Venom 2",
-      "description": "Протистояння симбіотів та їхніх ворогів.",
+      "originalTitle": "Venom: Let There Be Carnage",
+      "year": 2021,
+      "director": "Andy Serkis",
+      "duration": 97,
+      "country": "USA",
+      "description": "Протистояння Венома і нової загрози — жорстокого Карнажа.",
       "genre": "Фантастика",
       "poster": "posters/venom.jpg",
       "sessionTime": "2025-05-10 21:30"

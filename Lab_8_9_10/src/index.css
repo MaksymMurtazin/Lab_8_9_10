@@ -43,7 +43,7 @@ h1 {
 
 .movie-list {
     display: grid;
-    gap: 1.5rem;
+    gap: 2rem;
     padding: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
@@ -57,8 +57,7 @@ h1 {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.6s ease forwards;
-    max-width: 290px;
-    max-height: 570px;
+    width: 265px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -76,14 +75,14 @@ h1 {
 }
 
 .movie-card img {
-    width: 100%;
     height: auto;
+    width: 100%;
     object-fit: contain;
-    max-height: 431px;
 }
 
 .movie-card-content {
-    padding: 15px;
+    margin: 10px 15px 15px;
+    height: 131px;
 }
 
     .movie-card-content h3 {
@@ -101,6 +100,9 @@ h1 {
     text-decoration: none;
     color: inherit;
     display: block;
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 500px) {
