@@ -30,8 +30,14 @@ function Booking() {
         fetch(`http://localhost:3001/sessions?movieId=${id}`)
             .then((res) => res.json())
             .then((data) => {
-                setSessions(data);
-                const uniqueDates = [...new Set(data.map(s => s.date))];
+                const now = new Date();
+                const futureSessions = data.filter(session => {
+                    const sessionDateTime = new Date(`${session.date}T${session.time}`);
+                    return sessionDateTime >= now;
+                });
+
+                setSessions(futureSessions);
+                const uniqueDates = [...new Set(futureSessions.map(s => s.date))];
                 setAvailableDates(uniqueDates);
             })
             .catch((err) => {
