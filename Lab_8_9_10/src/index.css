@@ -41,6 +41,12 @@ h1 {
             background-color: #2a2a2a;
         }
 
+        .filters select:focus {
+            outline: none;
+            border-color: #0056b3;
+            box-shadow: 0 0 6px rgba(0, 86, 179, 0.5);
+        }
+
 .movie-list {
     display: grid;
     gap: 2rem;

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-//import CinemaHall from "../components/CinemaHall";
+import CinemaHall from "../components/CinemaHall";
 import "./Booking.css";
 
 function Booking() {
@@ -64,7 +64,7 @@ function Booking() {
                 <img src={import.meta.env.BASE_URL + movie.poster} alt={movie.title} className="poster" />
 
                 <div className="details">
-                    <h2>Назва: {movie.title}</h2>
+                    <h2 className="movie-title">Назва: {movie.title}</h2>
                     <p><strong>Оригінальна назва:</strong> {movie.originalTitle}</p>
                     <p><strong>Рік:</strong> {movie.year}</p>
                     <p><strong>Режисер:</strong> {movie.director}</p>
@@ -73,9 +73,13 @@ function Booking() {
                     <p><strong>Країна:</strong> {movie.country}</p>
 
                     <div className="selectors">
-                        <label>
+                        <label className="select-label">
                             Дата:
-                            <select value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)}>
+                            <select
+                                className="select-input"
+                                value={selectedDate}
+                                onChange={(e) => setSelectedDate(e.target.value)}
+                            >
                                 <option value="">Оберіть дату</option>
                                 {availableDates.map((date) => (
                                     <option key={date} value={date}>{date}</option>
@@ -83,9 +87,14 @@ function Booking() {
                             </select>
                         </label>
 
-                        <label>
+                        <label className="select-label">
                             Сеанс:
-                            <select value={selectedSession} onChange={(e) => setSelectedSession(e.target.value)} disabled={!selectedDate}>
+                            <select
+                                className="select-input"
+                                value={selectedSession}
+                                onChange={(e) => setSelectedSession(e.target.value)}
+                                disabled={!selectedDate}
+                            >
                                 <option value="">Оберіть сеанс</option>
                                 {availableTimes.map((time) => (
                                     <option key={time} value={time}>{time}</option>

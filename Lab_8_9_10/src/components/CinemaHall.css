@@ -1,46 +1,65 @@
-.cinema {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+.cinema-hall-container {
+    text-align: center;
+}
+
+.screen {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.hall-grid {
+    display: inline-block;
+    padding: 10px;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 .row {
-    display: grid;
-    grid-template-columns: repeat(8, 40px);
-    gap: 10px;
+    display: flex;
     justify-content: center;
+    margin: 6px 0;
 }
 
 .seat {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    margin: 4px;
+    background-color: #2a2a2a;
+    border: 1px solid #999;
+    border-radius: 6px;
+    color: #fff;
     cursor: pointer;
-    font-weight: bold;
-    color: white;
-    transition: transform 0.2s;
+    transition: all 0.3s ease;
 }
 
-    .seat.available {
-        background-color: green;
+    .seat:hover {
+        background-color: #ffcc00;
+        color: black;
+        font-weight: bold;
     }
 
     .seat.selected {
-        background-color: blue;
-    }
-
-    .seat.taken {
-        background-color: gray;
-        cursor: not-allowed;
-    }
-
-    .seat:hover:not(.taken) {
-        transform: scale(1.1);
+        background-color: #ffcc00;
+        color: black;
+        font-weight: bold;
     }
 
 .selected-info {
     margin-top: 20px;
+    color: #ccc;
+    font-size: 16px;
+    font-style: italic;
 }
+
+    .selected-info p {
+        color: #ffcc00;
+        margin: 5px 0 0;
+    }

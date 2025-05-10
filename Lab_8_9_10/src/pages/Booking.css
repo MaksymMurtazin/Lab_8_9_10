@@ -2,7 +2,22 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2rem;
+    background-color: #181818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .movie-details {
@@ -10,31 +25,107 @@
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
+    background-color: #121212;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .poster {
     width: 350px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 520px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
+
+    .poster:hover {
+        transform: scale(1.03);
+    }
 
 .details {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
 }
+
+    .details h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.6rem;
+        color: #ffffff;
+    }
+
+    .details p {
+        margin: 0.2rem 0;
+        color: #ffffff;
+    }
 
 .selectors {
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
 }
 
     .selectors label {
         display: flex;
         flex-direction: column;
+        font-weight: 600;
+        color: #ffffff;
     }
+
+    .selectors select {
+        margin-top: 0.3rem;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background-color: #1e1e1e;
+        transition: border 0.3s, box-shadow 0.3s;
+        font-size: 1rem;
+        cursor: pointer;
+        color: white;
+    }
+
+        .selectors select:hover {
+            border-color: #ffcc00;
+            background-color: #2a2a2a;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+        }
+
+        .selectors select:focus {
+            outline: none;
+            border-color: #0056b3;
+            box-shadow: 0 0 6px rgba(0, 86, 179, 0.5);
+        }
+
+@media (max-width: 672px) {
+    .movie-details {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+    .details {
+        width: auto;
+        margin-left: 45px;
+    }
+
+    .selectors {
+        flex-direction: row;
+        gap: 1rem;
+
+    }
+        .selectors select {
+            width: auto;
+
+        }
+
+    .poster {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
