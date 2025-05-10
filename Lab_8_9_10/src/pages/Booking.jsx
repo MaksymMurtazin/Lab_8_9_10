@@ -35,7 +35,7 @@ function Booking() {
                 <img src={import.meta.env.BASE_URL + movie.poster} alt={movie.title} className="poster" />
 
                 <div className="details">
-                    <h2>{movie.title}</h2>
+                    <h2>Назва: {movie.title}</h2>
                     <p><strong>Оригінальна назва:</strong> {movie.originalTitle}</p>
                     <p><strong>Рік:</strong> {movie.year}</p>
                     <p><strong>Режисер:</strong> {movie.director}</p>

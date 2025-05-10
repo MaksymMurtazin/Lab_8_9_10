@@ -2,7 +2,7 @@
   "movies": [
     {
       "id": 1,
-      "title": "Inception",
+      "title": "Початок",
       "originalTitle": "Inception",
       "year": 2010,
       "director": "Christopher Nolan",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "title": "The Dark Knight",
+      "title": "Темний лицар",
       "originalTitle": "The Dark Knight",
       "year": 2008,
       "director": "Christopher Nolan",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "title": "Interstellar",
+      "title": "Інтерстеллар",
       "originalTitle": "Interstellar",
       "year": 2014,
       "director": "Christopher Nolan",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "title": "Gladiator 2",
+      "title": "Гладіатор 2",
       "originalTitle": "Gladiator 2",
       "year": 2024,
       "director": "Ridley Scott",
@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "title": "Avatar: The Way Of Water",
+      "title": "Аватар: Шлях води",
       "originalTitle": "Avatar: The Way Of Water",
       "year": 2022,
       "director": "James Cameron",
@@ -67,7 +67,7 @@
     },
     {
       "id": 6,
-      "title": "Joker",
+      "title": "Джокер",
       "originalTitle": "Joker",
       "year": 2019,
       "director": "Todd Phillips",
@@ -80,7 +80,7 @@
     },
     {
       "id": 7,
-      "title": "The Lion King",
+      "title": "Король Лев",
       "originalTitle": "The Lion King",
       "year": 1994,
       "director": "Roger Allers, Rob Minkoff",
@@ -93,7 +93,7 @@
     },
     {
       "id": 8,
-      "title": "Carry-On",
+      "title": "Ручна поклажа",
       "originalTitle": "Carry-On",
       "year": 2024,
       "director": "Jaume Collet-Serra",
@@ -106,7 +106,7 @@
     },
     {
       "id": 9,
-      "title": "Captain America: Brave New World",
+      "title": "Капітан Америка: Чудесний новий світ",
       "originalTitle": "Captain America: Brave New World",
       "year": 2025,
       "director": "Julius Onah",
@@ -119,7 +119,7 @@
     },
     {
       "id": 10,
-      "title": "Venom 2",
+      "title": "Веном 2: Карнаж",
       "originalTitle": "Venom: Let There Be Carnage",
       "year": 2021,
       "director": "Andy Serkis",
