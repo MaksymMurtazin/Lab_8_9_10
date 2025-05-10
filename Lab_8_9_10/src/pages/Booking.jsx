@@ -9,6 +9,23 @@ function Booking() {
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedSession, setSelectedSession] = useState("");
     const [error, setError] = useState(null);
+    const [availableDates, setAvailableDates] = useState([]);
+
+    const availableSessions = ["10:00", "14:00", "18:00", "21:00"];
+
+    useEffect(() => {
+        const dates = [];
+        const today = new Date();
+
+        for (let i = 0; i < 7; i++) {
+            const future = new Date(today);
+            future.setDate(today.getDate() + i);
+            const formatted = future.toISOString().split("T")[0]; // yyyy-mm-dd
+            dates.push(formatted);
+        }
+
+        setAvailableDates(dates);
+    }, []);
 
     useEffect(() => {
         fetch(`http://localhost:3001/movies/${id}`)
@@ -22,9 +39,6 @@ function Booking() {
                 setError(err.message);
             });
     }, [id]);
-
-    const availableDates = ["2025-05-03", "2025-05-04", "2025-05-05"];
-    const availableSessions = ["10:00", "14:00", "18:00", "21:00"];
 
     if (error) return <p>❌ {error}</p>;
     if (!movie) return <p>Завантаження...</p>;
