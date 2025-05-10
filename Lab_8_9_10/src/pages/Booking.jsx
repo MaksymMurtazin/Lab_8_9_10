@@ -6,26 +6,12 @@ import "./Booking.css";
 function Booking() {
     const { id } = useParams();
     const [movie, setMovie] = useState(null);
+    const [sessions, setSessions] = useState([]);
+    const [availableDates, setAvailableDates] = useState([]);
+    const [availableTimes, setAvailableTimes] = useState([]);
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedSession, setSelectedSession] = useState("");
     const [error, setError] = useState(null);
-    const [availableDates, setAvailableDates] = useState([]);
-
-    const availableSessions = ["10:00", "14:00", "18:00", "21:00"];
-
-    useEffect(() => {
-        const dates = [];
-        const today = new Date();
-
-        for (let i = 0; i < 7; i++) {
-            const future = new Date(today);
-            future.setDate(today.getDate() + i);
-            const formatted = future.toISOString().split("T")[0]; // yyyy-mm-dd
-            dates.push(formatted);
-        }
-
-        setAvailableDates(dates);
-    }, []);
 
     useEffect(() => {
         fetch(`http://localhost:3001/movies/${id}`)
@@ -33,12 +19,35 @@ function Booking() {
                 if (!res.ok) throw new Error("Фільм не знайдено");
                 return res.json();
             })
-            .then((data) => setMovie(data))
+            .then(setMovie)
             .catch((err) => {
                 console.error(err);
                 setError(err.message);
             });
     }, [id]);
+
+    useEffect(() => {
+        fetch(`http://localhost:3001/sessions?movieId=${id}`)
+            .then((res) => res.json())
+            .then((data) => {
+                setSessions(data);
+                const uniqueDates = [...new Set(data.map(s => s.date))];
+                setAvailableDates(uniqueDates);
+            })
+            .catch((err) => {
+                console.error("Помилка при завантаженні сеансів:", err);
+            });
+    }, [id]);
+
+    useEffect(() => {
+        if (selectedDate) {
+            const times = sessions
+                .filter(s => s.date === selectedDate)
+                .map(s => s.time);
+            setAvailableTimes(times);
+            setSelectedSession("");
+        }
+    }, [selectedDate, sessions]);
 
     if (error) return <p>❌ {error}</p>;
     if (!movie) return <p>Завантаження...</p>;
@@ -70,9 +79,9 @@ function Booking() {
 
                         <label>
                             Сеанс:
-                            <select value={selectedSession} onChange={(e) => setSelectedSession(e.target.value)}>
+                            <select value={selectedSession} onChange={(e) => setSelectedSession(e.target.value)} disabled={!selectedDate}>
                                 <option value="">Оберіть сеанс</option>
-                                {availableSessions.map((time) => (
+                                {availableTimes.map((time) => (
                                     <option key={time} value={time}>{time}</option>
                                 ))}
                             </select>
