@@ -89,7 +89,20 @@
 
     .selected-info h4 {
         margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
         color: #ffcc00;
+    }
+
+    .selected-info ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .selected-info li {
+        margin-bottom: 0.3rem;
+        color: #ffffff;
+        font-size: 1rem;
     }
 
 @media (max-width: 672px) {

@@ -47,7 +47,16 @@ function CinemaHall({ date, time, movieId }) {
             {selectedSeats.length > 0 && (
                 <div className="selected-info">
                     <h4>Вибрані місця:</h4>
-                    <p>{selectedSeats.join(", ")}</p>
+                    <ul>
+                        {selectedSeats.map((seat) => {
+                            const [row, seatNumber] = seat.split("-");
+                            return (
+                                <li key={seat}>
+                                    Ряд {row}, Місце {seatNumber}
+                                </li>
+                            );
+                        })}
+                    </ul>
                 </div>
             )}
         </div>
