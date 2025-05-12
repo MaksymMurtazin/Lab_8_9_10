@@ -1,8 +1,9 @@
 .booking-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 1rem;
+    padding: 1.5rem;
+    min-width: 520px;
     background-color: #181818;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation: fadeIn 0.5s ease-in-out;
