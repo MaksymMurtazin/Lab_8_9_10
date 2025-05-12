@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\BookingForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\BookingForm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\services\\BookingService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\BookingService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CinemaHall.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -27,28 +51,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Booking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Booking.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieCard.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MovieCard.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\generateSessions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:generateSessions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,23 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MovieList.jsx",
-              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx",
-              "RelativeDocumentMoniker": "src\\components\\MovieList.jsx",
-              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx",
-              "RelativeToolTip": "src\\components\\MovieList.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-26T12:34:31.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Home.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Home.jsx",
               "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
@@ -82,29 +78,31 @@
               "RelativeToolTip": "src\\pages\\Home.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-05-03T14:00:06.286Z"
+              "WhenOpened": "2025-05-03T14:00:06.286Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Booking.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx",
               "RelativeDocumentMoniker": "src\\pages\\Booking.jsx",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.jsx",
               "RelativeToolTip": "src\\pages\\Booking.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-05-03T14:00:16.51Z"
+              "WhenOpened": "2025-05-03T14:00:16.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CinemaHall.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx",
               "RelativeDocumentMoniker": "src\\components\\CinemaHall.jsx",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.jsx",
               "RelativeToolTip": "src\\components\\CinemaHall.jsx",
-              "ViewState": "AgIAADUAAAAAAAAAAAAUwAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-05-03T13:59:01.48Z",
               "EditorCaption": ""
@@ -117,39 +115,40 @@
               "RelativeDocumentMoniker": "src\\services\\BookingService.js",
               "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\services\\BookingService.js",
               "RelativeToolTip": "src\\services\\BookingService.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-12T14:20:15.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CinemaHall.css",
-              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
-              "RelativeDocumentMoniker": "src\\components\\CinemaHall.css",
-              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
-              "RelativeToolTip": "src\\components\\CinemaHall.css",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAF4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-03T16:30:27.085Z",
+              "DocumentIndex": 0,
+              "Title": "BookingForm.jsx",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.jsx",
+              "RelativeDocumentMoniker": "src\\components\\BookingForm.jsx",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.jsx",
+              "RelativeToolTip": "src\\components\\BookingForm.jsx",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwC0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-12T16:40:25.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Booking.css",
-              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css",
-              "RelativeDocumentMoniker": "src\\pages\\Booking.css",
-              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css",
-              "RelativeToolTip": "src\\pages\\Booking.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BookingForm.css",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.css",
+              "RelativeDocumentMoniker": "src\\components\\BookingForm.css",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\BookingForm.css",
+              "RelativeToolTip": "src\\components\\BookingForm.css",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-04T13:34:06.964Z"
+              "WhenOpened": "2025-05-12T16:40:35.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "index.css",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\index.css",
               "RelativeDocumentMoniker": "src\\index.css",
@@ -161,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "db.json",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\db.json",
               "RelativeDocumentMoniker": "db.json",
@@ -173,7 +172,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "Booking.css",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css",
+              "RelativeDocumentMoniker": "src\\pages\\Booking.css",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\pages\\Booking.css",
+              "RelativeToolTip": "src\\pages\\Booking.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-04T13:34:06.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CinemaHall.css",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
+              "RelativeDocumentMoniker": "src\\components\\CinemaHall.css",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\CinemaHall.css",
+              "RelativeToolTip": "src\\components\\CinemaHall.css",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAF4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-03T16:30:27.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MovieCard.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieCard.jsx",
               "RelativeDocumentMoniker": "src\\components\\MovieCard.jsx",
@@ -185,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "generateSessions.js",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\generateSessions.js",
               "RelativeDocumentMoniker": "generateSessions.js",
@@ -197,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
@@ -206,6 +230,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-04-26T12:35:43.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieList.jsx",
+              "DocumentMoniker": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx",
+              "RelativeDocumentMoniker": "src\\components\\MovieList.jsx",
+              "ToolTip": "D:\\\u041B\u041D\u0423\\\u0412\u041F\u043D\u0430\u0421\u041A\\\u0412\u041F\u043D\u0430\u0421\u041A_\u041B\u0430\u0431\\Lab_8_9_10\\Lab_8_9_10\\src\\components\\MovieList.jsx",
+              "RelativeToolTip": "src\\components\\MovieList.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-26T12:34:31.111Z",
+              "EditorCaption": ""
             }
           ]
         }
