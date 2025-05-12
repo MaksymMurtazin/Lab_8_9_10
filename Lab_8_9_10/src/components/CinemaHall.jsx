@@ -1,14 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { BookingService } from "../services/BookingService";
 import "./CinemaHall.css";
 
-function CinemaHall({ date, time, movieId }) {
+function CinemaHall({ date, time, movieId, onBookingRequest }) {
     const rows = 5;
     const seatsPerRow = 10;
 
     const [selectedSeats, setSelectedSeats] = useState([]);
+    const [bookedSeats, setBookedSeats] = useState([]);
+
+    useEffect(() => {
+        const booked = BookingService.getBookedSeats(movieId, date, time);
+        setBookedSeats(booked);
+    }, [movieId, date, time]);
 
     const toggleSeat = (row, seat) => {
         const seatId = `${row}-${seat}`;
+
+        if (bookedSeats.includes(seatId)) return;
+
         setSelectedSeats((prev) =>
             prev.includes(seatId)
                 ? prev.filter((id) => id !== seatId)
@@ -27,11 +37,15 @@ function CinemaHall({ date, time, movieId }) {
                         {[...Array(seatsPerRow)].map((_, seatIndex) => {
                             const seatId = `${rowIndex + 1}-${seatIndex + 1}`;
                             const isSelected = selectedSeats.includes(seatId);
+                            const isBooked = bookedSeats.includes(seatId);
 
                             return (
                                 <button
                                     key={seatId}
-                                    className={`seat ${isSelected ? "selected" : ""}`}
+                                    className={`seat 
+                                        ${isSelected ? "selected" : ""} 
+                                        ${isBooked ? "booked" : ""}`}
+                                    disabled={isBooked}
                                     onClick={() =>
                                         toggleSeat(rowIndex + 1, seatIndex + 1)
                                     }
@@ -57,6 +71,15 @@ function CinemaHall({ date, time, movieId }) {
                             );
                         })}
                     </ul>
+
+                    <button
+                        className="booking-button"
+                        onClick={() =>
+                            onBookingRequest(selectedSeats)
+                        }
+                    >
+                        Забронювати
+                    </button>
                 </div>
             )}
         </div>
