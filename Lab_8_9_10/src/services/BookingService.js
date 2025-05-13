@@ -5,24 +5,21 @@ const getAllBookings = () => {
     return data ? JSON.parse(data) : {};
 };
 
-const saveBooking = (movieId, date, time, seats, userInfo) => {
+const saveBooking = (movieId, date, time, seats, userInfo, hall) => {
     const bookings = getAllBookings();
-
     const sessionKey = `${movieId}_${date}_${time}`;
 
-    if (!bookings[sessionKey]) {
-        bookings[sessionKey] = [];
-    }
+    if (!bookings[sessionKey]) bookings[sessionKey] = [];
 
-    const alreadyBooked = bookings[sessionKey].flatMap(b => b.seats);
+    const alreadyBooked = bookings[sessionKey].flatMap((b) => b.seats);
     const newSeats = seats.filter(seat => !alreadyBooked.includes(seat));
-
     if (newSeats.length === 0) return;
 
     bookings[sessionKey].push({
         seats: newSeats,
+        hall,                
         userInfo,
-        timestamp: new Date().toISOString(),
+        sessionDateTime: `${date} ${time}`,
     });
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bookings));
@@ -31,10 +28,9 @@ const saveBooking = (movieId, date, time, seats, userInfo) => {
 const getBookedSeats = (movieId, date, time) => {
     const bookings = getAllBookings();
     const sessionKey = `${movieId}_${date}_${time}`;
-
-    if (!bookings[sessionKey]) return [];
-
-    return bookings[sessionKey].flatMap((b) => b.seats);
+    return bookings[sessionKey]
+        ? bookings[sessionKey].flatMap((b) => b.seats)
+        : [];
 };
 
 export const BookingService = {

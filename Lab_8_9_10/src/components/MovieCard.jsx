@@ -27,7 +27,7 @@ const MovieCard = ({ movie }) => {
 
                     {nearestSession ? (
                         <p className="next-session">
-                            🎬 Сеанс: {nearestSession.date}, {nearestSession.time}
+                         Сеанс: {nearestSession.date}, {nearestSession.time}
                         </p>
                     ) : (
                         <p className="no-session">❌ Сеансів немає</p>

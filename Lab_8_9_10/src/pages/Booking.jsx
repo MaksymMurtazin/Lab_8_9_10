@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import CinemaHall from "../components/CinemaHall";
 import BookingForm from "../components/BookingForm";
+import { ToastContainer } from "react-toastify";
 import "./Booking.css";
 
 function Booking() {
@@ -15,6 +14,7 @@ function Booking() {
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedSession, setSelectedSession] = useState("");
     const [selectedSeats, setSelectedSeats] = useState([]);
+    const [currentHall, setCurrentHall] = useState(null);
     const [error, setError] = useState(null);
 
     useEffect(() => {
@@ -35,14 +35,12 @@ function Booking() {
             .then((res) => res.json())
             .then((data) => {
                 const now = new Date();
-                const futureSessions = data.filter(session => {
-                    const sessionDateTime = new Date(`${session.date}T${session.time}`);
-                    return sessionDateTime >= now;
+                const future = data.filter((s) => {
+                    const dt = new Date(`${s.date}T${s.time}`);
+                    return dt >= now;
                 });
-
-                setSessions(futureSessions);
-                const uniqueDates = [...new Set(futureSessions.map(s => s.date))];
-                setAvailableDates(uniqueDates);
+                setSessions(future);
+                setAvailableDates([...new Set(future.map((s) => s.date))]);
             })
             .catch((err) => {
                 console.error("Помилка при завантаженні сеансів:", err);
@@ -50,16 +48,19 @@ function Booking() {
     }, [id]);
 
     useEffect(() => {
-        if (selectedDate) {
-            const times = sessions
-                .filter(s => s.date === selectedDate)
-                .map(s => s.time);
-            setAvailableTimes(times);
-            setSelectedSession("");
-        }
+        if (!selectedDate) return;
+        const times = sessions
+            .filter((s) => s.date === selectedDate)
+            .map((s) => s.time);
+        setAvailableTimes(times);
+        setSelectedSession("");
     }, [selectedDate, sessions]);
 
     const handleBookingRequest = (seats) => {
+        const sessionObj = sessions.find(
+            (s) => s.date === selectedDate && s.time === selectedSession
+        );
+        setCurrentHall(sessionObj?.hall ?? null);
         setSelectedSeats(seats);
     };
 
@@ -122,15 +123,17 @@ function Booking() {
                 />
             )}
 
-            {selectedSeats.length > 0 && (
+            {selectedSeats.length > 0 && currentHall != null && (
                 <BookingForm
                     movieId={id}
                     date={selectedDate}
                     time={selectedSession}
+                    hall={currentHall}
                     selectedSeats={selectedSeats}
                     onClearSeats={() => setSelectedSeats([])}
                 />
             )}
+
             <ToastContainer />
         </div>
     );
