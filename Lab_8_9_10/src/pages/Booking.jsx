@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import CinemaHall from "../components/CinemaHall";
+import BookingForm from "../components/BookingForm";
 import "./Booking.css";
 
 function Booking() {
@@ -11,6 +12,7 @@ function Booking() {
     const [availableTimes, setAvailableTimes] = useState([]);
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedSession, setSelectedSession] = useState("");
+    const [selectedSeats, setSelectedSeats] = useState([]);
     const [error, setError] = useState(null);
 
     useEffect(() => {
@@ -54,6 +56,10 @@ function Booking() {
             setSelectedSession("");
         }
     }, [selectedDate, sessions]);
+
+    const handleBookingRequest = (seats) => {
+        setSelectedSeats(seats);
+    };
 
     if (error) return <p>❌ {error}</p>;
     if (!movie) return <p>Завантаження...</p>;
@@ -106,7 +112,22 @@ function Booking() {
             </div>
 
             {selectedDate && selectedSession && (
-                <CinemaHall date={selectedDate} time={selectedSession} movieId={id} />
+                <CinemaHall
+                    date={selectedDate}
+                    time={selectedSession}
+                    movieId={id}
+                    onBookingRequest={handleBookingRequest}
+                />
+            )}
+
+            {selectedSeats.length > 0 && (
+                <BookingForm
+                    movieId={id}
+                    date={selectedDate}
+                    time={selectedSession}
+                    selectedSeats={selectedSeats}
+                    onClearSeats={() => setSelectedSeats([])}
+                />
             )}
         </div>
     );

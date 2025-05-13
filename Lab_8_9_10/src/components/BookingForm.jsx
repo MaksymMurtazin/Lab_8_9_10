@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+//import { toast } from "react-toastify";
+//import "react-toastify/dist/ReactToastify.css";
 import { BookingService } from "../services/BookingService";
 import "./BookingForm.css";
 
@@ -42,7 +42,7 @@ function BookingForm({ movieId, date, time, selectedSeats, onSuccess }) {
             email
         });
 
-        toast.success("Бронювання успішно збережено!");
+        //toast.success("Бронювання успішно збережено!");
         onSuccess();
     };
 
