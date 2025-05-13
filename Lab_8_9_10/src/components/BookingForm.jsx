@@ -1,10 +1,10 @@
 import { useState } from "react";
-//import { toast } from "react-toastify";
-//import "react-toastify/dist/ReactToastify.css";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { BookingService } from "../services/BookingService";
 import "./BookingForm.css";
 
-function BookingForm({ movieId, date, time, selectedSeats, onSuccess }) {
+function BookingForm({ movieId, date, time, selectedSeats, onClearSeats }) {
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
@@ -15,8 +15,8 @@ function BookingForm({ movieId, date, time, selectedSeats, onSuccess }) {
         if (!name.trim()) newErrors.name = "Ім'я є обов'язковим";
         if (!phone.trim()) {
             newErrors.phone = "Телефон є обов'язковим";
-        } else if (!/^(\+\d{1,3}[- ]?)?\d{10}$/.test(email)) {
-            newErrors.email = "Некоректний формат телефону";
+        } else if (!/^(\+?\d{10,15})$/.test(phone)) {
+            newErrors.phone = "Некоректний формат телефону";
         }
         if (!email.trim()) {
             newErrors.email = "Email є обов'язковим";
@@ -39,51 +39,63 @@ function BookingForm({ movieId, date, time, selectedSeats, onSuccess }) {
             seats: selectedSeats,
             name,
             phone,
-            email
+            email,
         });
 
-        //toast.success("Бронювання успішно збережено!");
-        onSuccess();
+        toast.success("🎉 Бронювання успішно збережено!", {
+            position: "top-right",
+            autoClose: 3000,
+        });
+
+        setName("");
+        setPhone("");
+        setEmail("");
+        setErrors({});
+        onClearSeats();
     };
 
     return (
-        <form className="booking-form" onSubmit={handleSubmit}>
-            <h3>Заповніть форму для бронювання</h3>
+        <>
+            <form className="booking-form" onSubmit={handleSubmit}>
+                <h3>Заповніть форму для бронювання</h3>
 
-            <div className="form-group">
-                <label>Ім’я:</label>
-                <input
-                    type="text"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                />
-                {errors.name && <span className="error">{errors.name}</span>}
-            </div>
+                <div className="form-group">
+                    <label>Ім’я:</label>
+                    <input
+                        type="text"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                    />
+                    {errors.name && <span className="error">{errors.name}</span>}
+                </div>
 
-            <div className="form-group">
-                <label>Телефон:</label>
-                <input
-                    type="text"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                />
-                {errors.phone && <span className="error">{errors.phone}</span>}
-            </div>
+                <div className="form-group">
+                    <label>Телефон:</label>
+                    <input
+                        type="text"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
+                    />
+                    {errors.phone && <span className="error">{errors.phone}</span>}
+                </div>
 
-            <div className="form-group">
-                <label>Email:</label>
-                <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-                {errors.email && <span className="error">{errors.email}</span>}
-            </div>
+                <div className="form-group">
+                    <label>Email:</label>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    {errors.email && <span className="error">{errors.email}</span>}
+                </div>
 
-            <button type="submit" className="submit-button">
-                Підтвердити бронювання
-            </button>
-        </form>
+                <button type="submit" className="submit-button">
+                    Підтвердити бронювання
+                </button>
+            </form>
+
+            <ToastContainer />
+        </>
     );
 }
 
