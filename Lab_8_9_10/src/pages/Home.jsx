@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import MovieList from "../components/MovieList";
 
 function Home() {
@@ -9,13 +9,29 @@ function Home() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:3001/movies")
-            .then((res) => {
+        Promise.all([
+            fetch("http://localhost:3001/movies").then((res) => {
                 if (!res.ok) throw new Error("Помилка при завантаженні фільмів");
                 return res.json();
-            })
-            .then((data) => {
-                setMovies(data);
+            }),
+            fetch("http://localhost:3001/sessions").then((res) => {
+                if (!res.ok) throw new Error("Помилка при завантаженні сеансів");
+                return res.json();
+            }),
+        ])
+            .then(([moviesData, sessionsData]) => {
+                const now = new Date();
+
+                const moviesWithSessions = moviesData.map((movie) => {
+                    const movieSessions = sessionsData.filter(
+                        (session) =>
+                            String(session.movieId) === String(movie.id) &&
+                            new Date(`${session.date}T${session.time}`) >= now
+                    );
+                    return { ...movie, sessions: movieSessions };
+                });
+
+                setMovies(moviesWithSessions);
                 setIsLoading(false);
             })
             .catch((err) => {

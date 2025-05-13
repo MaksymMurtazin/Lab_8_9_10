@@ -102,6 +102,20 @@ h1 {
         color: #ccc;
     }
 
+    .movie-card-content .next-session {
+        margin-top: 0.5rem;
+        color: #ccc;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .movie-card-content .no-session {
+        margin-top: 0.5rem;
+        color: #ccc;
+        font-style: italic;
+        font-size: 14px;
+    }
+
 .movie-link {
     text-decoration: none;
     color: inherit;
