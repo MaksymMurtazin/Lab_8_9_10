@@ -102,10 +102,11 @@
     }
 
 .selected-info {
-    margin-top: 2rem;
+    margin: 2rem auto;
     background-color: #232323;
     padding: 1rem;
     border-radius: 10px;
+    max-width: 550px;
     color: #fff;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
 }
