@@ -7,7 +7,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.5s ease-in-out;
     max-width: 600px;
-    margin: 2rem auto;
+    margin: 0 auto;
 }
 
     .booking-form h3 {
@@ -93,5 +93,25 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 672px) {
+    .booking-form {
+        margin: 1rem 2rem;
+    }
+
+        .booking-form h3 {
+            font-size: 1.5rem;
+        }
+
+    .form-group input {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .submit-button {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
     }
 }
