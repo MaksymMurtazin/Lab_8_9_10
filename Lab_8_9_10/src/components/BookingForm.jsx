@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { toast, ToastContainer } from "react-toastify";
+import { toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BookingService } from "../services/BookingService";
 import "./BookingForm.css";
@@ -32,15 +32,13 @@ function BookingForm({ movieId, date, time, selectedSeats, onClearSeats }) {
         e.preventDefault();
         if (!validate()) return;
 
-        BookingService.saveBooking({
+        BookingService.saveBooking(
             movieId,
             date,
             time,
-            seats: selectedSeats,
-            name,
-            phone,
-            email,
-        });
+            selectedSeats,
+            { name, phone, email }
+        );
 
         toast.success("🎉 Бронювання успішно збережено!", {
             position: "top-right",
@@ -89,12 +87,11 @@ function BookingForm({ movieId, date, time, selectedSeats, onClearSeats }) {
                     {errors.email && <span className="error">{errors.email}</span>}
                 </div>
 
-                <button type="submit" className="submit-button">
+                <button type="submit" className="submit-button" disabled={selectedSeats.length === 0}>
                     Підтвердити бронювання
                 </button>
             </form>
 
-            <ToastContainer />
         </>
     );
 }

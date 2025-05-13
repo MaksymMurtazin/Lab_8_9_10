@@ -12,6 +12,7 @@ function CinemaHall({ date, time, movieId, onBookingRequest }) {
     useEffect(() => {
         const booked = BookingService.getBookedSeats(movieId, date, time);
         setBookedSeats(booked);
+        setSelectedSeats([]);
     }, [movieId, date, time]);
 
     const toggleSeat = (row, seat) => {
@@ -24,6 +25,13 @@ function CinemaHall({ date, time, movieId, onBookingRequest }) {
                 ? prev.filter((id) => id !== seatId)
                 : [...prev, seatId]
         );
+    };
+
+    const handleBooking = () => {
+        onBookingRequest(selectedSeats);
+        const updatedBooked = [...bookedSeats, ...selectedSeats];
+        setBookedSeats(updatedBooked);
+        setSelectedSeats([]);
     };
 
     return (
@@ -74,9 +82,7 @@ function CinemaHall({ date, time, movieId, onBookingRequest }) {
 
                     <button
                         className="booking-button"
-                        onClick={() =>
-                            onBookingRequest(selectedSeats)
-                        }
+                        onClick={handleBooking}
                     >
                         Забронювати
                     </button>

@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import CinemaHall from "../components/CinemaHall";
 import BookingForm from "../components/BookingForm";
 import "./Booking.css";
@@ -129,6 +131,7 @@ function Booking() {
                     onClearSeats={() => setSelectedSeats([])}
                 />
             )}
+            <ToastContainer />
         </div>
     );
 }

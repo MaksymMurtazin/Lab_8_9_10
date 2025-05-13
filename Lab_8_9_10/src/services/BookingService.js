@@ -14,8 +14,13 @@ const saveBooking = (movieId, date, time, seats, userInfo) => {
         bookings[sessionKey] = [];
     }
 
+    const alreadyBooked = bookings[sessionKey].flatMap(b => b.seats);
+    const newSeats = seats.filter(seat => !alreadyBooked.includes(seat));
+
+    if (newSeats.length === 0) return;
+
     bookings[sessionKey].push({
-        seats,
+        seats: newSeats,
         userInfo,
         timestamp: new Date().toISOString(),
     });
