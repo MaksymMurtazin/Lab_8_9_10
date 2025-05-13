@@ -15,7 +15,7 @@ function BookingForm({ movieId, date, time, selectedSeats, onClearSeats }) {
         if (!name.trim()) newErrors.name = "Ім'я є обов'язковим";
         if (!phone.trim()) {
             newErrors.phone = "Телефон є обов'язковим";
-        } else if (!/^(\+?\d{10,15})$/.test(phone)) {
+        } else if (!/^(\+\d{1,3}[- ]?)?\d{10}$/.test(phone)) {
             newErrors.phone = "Некоректний формат телефону";
         }
         if (!email.trim()) {
