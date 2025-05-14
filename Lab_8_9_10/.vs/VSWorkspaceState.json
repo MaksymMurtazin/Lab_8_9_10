@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components",
     "\\src\\pages",
     "\\src\\services"
   ],
-  "SelectedNode": "\\vite.config.js",
   "PreviewInSolutionExplorer": false
 }
