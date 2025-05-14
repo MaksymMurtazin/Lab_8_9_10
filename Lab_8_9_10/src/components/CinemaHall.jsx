@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BookingService } from "../services/BookingService";
 import "./CinemaHall.css";
 
-function CinemaHall({ date, time, movieId, onBookingRequest }) {
+function CinemaHall({ sessionId, onBookingRequest }) {
     const rows = 5;
     const seatsPerRow = 10;
 
@@ -10,14 +10,15 @@ function CinemaHall({ date, time, movieId, onBookingRequest }) {
     const [bookedSeats, setBookedSeats] = useState([]);
 
     useEffect(() => {
-        const booked = BookingService.getBookedSeats(movieId, date, time);
-        setBookedSeats(booked);
+        if (sessionId) {
+            const booked = BookingService.getBookedSeats(sessionId);
+            setBookedSeats(booked);
+        }
         setSelectedSeats([]);
-    }, [movieId, date, time]);
+    }, [sessionId]);
 
     const toggleSeat = (row, seat) => {
         const seatId = `${row}-${seat}`;
-
         if (bookedSeats.includes(seatId)) return;
 
         setSelectedSeats((prev) =>
@@ -28,10 +29,12 @@ function CinemaHall({ date, time, movieId, onBookingRequest }) {
     };
 
     const handleBooking = () => {
-        onBookingRequest(selectedSeats);
-        const updatedBooked = [...bookedSeats, ...selectedSeats];
-        setBookedSeats(updatedBooked);
-        setSelectedSeats([]);
+        if (selectedSeats.length > 0) {
+            onBookingRequest(selectedSeats);
+            const updatedBooked = [...bookedSeats, ...selectedSeats];
+            setBookedSeats(updatedBooked);
+            setSelectedSeats([]);
+        }
     };
 
     return (

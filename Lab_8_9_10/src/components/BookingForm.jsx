@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { toast} from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BookingService } from "../services/BookingService";
 import "./BookingForm.css";
 
-function BookingForm({ movieId, date, time, hall, selectedSeats, onClearSeats }) {
+function BookingForm({ sessionId, selectedSeats, onClearSeats, date, time }) {
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
@@ -28,14 +28,7 @@ function BookingForm({ movieId, date, time, hall, selectedSeats, onClearSeats })
         e.preventDefault();
         if (!validate()) return;
 
-        BookingService.saveBooking(
-            movieId,
-            date,
-            time,
-            selectedSeats,
-            { name, phone, email },
-            hall
-        );
+        BookingService.saveBooking(sessionId, selectedSeats, { name, phone, email }, date, time);
 
         toast.success("🎉 Бронювання успішно збережено!", {
             position: "top-right",
@@ -50,46 +43,43 @@ function BookingForm({ movieId, date, time, hall, selectedSeats, onClearSeats })
     };
 
     return (
-        <>
-            <form className="booking-form" onSubmit={handleSubmit}>
-                <h3>Заповніть форму для бронювання</h3>
+        <form className="booking-form" onSubmit={handleSubmit}>
+            <h3>Заповніть форму для бронювання</h3>
 
-                <div className="form-group">
-                    <label>Ім’я:</label>
-                    <input
-                        type="text"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    {errors.name && <span className="error">{errors.name}</span>}
-                </div>
+            <div className="form-group">
+                <label>Ім’я:</label>
+                <input
+                    type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+                {errors.name && <span className="error">{errors.name}</span>}
+            </div>
 
-                <div className="form-group">
-                    <label>Телефон:</label>
-                    <input
-                        type="text"
-                        value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
-                    />
-                    {errors.phone && <span className="error">{errors.phone}</span>}
-                </div>
+            <div className="form-group">
+                <label>Телефон:</label>
+                <input
+                    type="text"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                />
+                {errors.phone && <span className="error">{errors.phone}</span>}
+            </div>
 
-                <div className="form-group">
-                    <label>Email:</label>
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                    {errors.email && <span className="error">{errors.email}</span>}
-                </div>
+            <div className="form-group">
+                <label>Email:</label>
+                <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+                {errors.email && <span className="error">{errors.email}</span>}
+            </div>
 
-                <button type="submit" className="submit-button" disabled={selectedSeats.length === 0}>
-                    Підтвердити бронювання
-                </button>
-            </form>
-
-        </>
+            <button type="submit" className="submit-button" disabled={selectedSeats.length === 0}>
+                Підтвердити бронювання
+            </button>
+        </form>
     );
 }
 

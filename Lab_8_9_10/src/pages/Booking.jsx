@@ -13,6 +13,7 @@ function Booking() {
     const [availableTimes, setAvailableTimes] = useState([]);
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedSession, setSelectedSession] = useState("");
+    const [selectedSessionId, setSelectedSessionId] = useState(null);
     const [selectedSeats, setSelectedSeats] = useState([]);
     const [currentHall, setCurrentHall] = useState(null);
     const [error, setError] = useState(null);
@@ -54,13 +55,19 @@ function Booking() {
             .map((s) => s.time);
         setAvailableTimes(times);
         setSelectedSession("");
+        setSelectedSessionId(null);
     }, [selectedDate, sessions]);
 
-    const handleBookingRequest = (seats) => {
+    useEffect(() => {
+        if (!selectedDate || !selectedSession) return;
         const sessionObj = sessions.find(
             (s) => s.date === selectedDate && s.time === selectedSession
         );
+        setSelectedSessionId(sessionObj?.id ?? null);
         setCurrentHall(sessionObj?.hall ?? null);
+    }, [selectedSession, selectedDate, sessions]);
+
+    const handleBookingRequest = (seats) => {
         setSelectedSeats(seats);
     };
 
@@ -70,8 +77,11 @@ function Booking() {
     return (
         <div className="booking-container">
             <div className="movie-details">
-                <img src={import.meta.env.BASE_URL + movie.poster} alt={movie.title} className="poster" />
-
+                <img
+                    src={import.meta.env.BASE_URL + movie.poster}
+                    alt={movie.title}
+                    className="poster"
+                />
                 <div className="details">
                     <h2 className="movie-title">Назва: {movie.title}</h2>
                     <p><strong>Оригінальна назва:</strong> {movie.originalTitle}</p>
@@ -114,22 +124,20 @@ function Booking() {
                 </div>
             </div>
 
-            {selectedDate && selectedSession && (
+            {selectedSessionId && (
                 <CinemaHall
-                    date={selectedDate}
-                    time={selectedSession}
-                    movieId={id}
+                    sessionId={selectedSessionId}
                     onBookingRequest={handleBookingRequest}
                 />
             )}
 
-            {selectedSeats.length > 0 && currentHall != null && (
+            {selectedSeats.length > 0 && currentHall && (
                 <BookingForm
-                    movieId={id}
-                    date={selectedDate}
-                    time={selectedSession}
-                    hall={currentHall}
+                    sessionId={selectedSessionId}
                     selectedSeats={selectedSeats}
+                    hall={currentHall}
+                    date={selectedDate} 
+                    time={selectedSession}
                     onClearSeats={() => setSelectedSeats([])}
                 />
             )}
