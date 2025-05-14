@@ -5,7 +5,6 @@ const getAllBookings = () => {
     return data ? JSON.parse(data) : {};
 };
 
-// Функція форматування дати в "YYYY-MM-DD HH:mm"
 const formatLocalDateTime = (date = new Date()) => {
     const pad = (n) => n.toString().padStart(2, '0');
     const year = date.getFullYear();
